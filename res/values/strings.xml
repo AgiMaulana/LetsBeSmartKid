@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Let\'s Be Smart Kid</string>
+    <string name="action_settings">Setting</string>
+    
+    <!-- UPDATE 2 April 2015 -->
+    <string-array name="menu">
+        <item>Home</item>
+        <item>Pencapaian</item>
+        <!-- <item>Panduan</item> -->
+        <item>Tentang</item>
+    </string-array>
+    
+    <array name="menu_icons">
+        <item>@drawable/menu_home</item>
+        <item>@drawable/menu_reward</item>
+        <!-- <item>@android:drawable/ic_menu_help</item> -->
+        <item>@android:drawable/ic_menu_info_details</item>
+    </array>
+    
+    <!-- Kategori -->
+    <string name="rumah">Rumah</string>
+    <string name="sekolah">Sekolah</string>
+    <string name="sosial">Sosial</string>
+    <string name="fasilitas_umum">Fasilitas umum</string>
+    
+    <string name="mata_uang">Mata uang</string>
+    <string name="flora">Flora</string>
+    <string name="fauna">Fauna</string>
+    <string name="budaya">Budaya</string>
+    
+    <string name="ok">OK</string>
+    <string name="baca_informasi">Baca penjelasan</string>
+    
+    <string name="mulai">Mulai</string>
+    <string name="kembali">Kembali</string>
+    <string name="selanjutnya">Selanjutnya</string>
+	<string name="nama_depan">Nama depan</string>
+	<string name="nama_belakang">Nama belakang</string>
+	<string name="pilih_jk">Pilih jenis kelamin</string>
+	
+	<string name="nama">Nama</string>
+	<string name="nilai">Nilai</string>
+	<string name="nilai_etika">Nilai pengetahuan tatakrama</string>
+	<string name="nilai_umum">Nilai pengetahuan umum</string>
+	<string name="terjawab">Terjawab</string>
+	<string name="total_soal">Total soal</string>
+    <string name="lbl_isiNamaDepan">Nama depan</string>
+    <string name="lbl_isiNamaBlkg">Nama belakang</string>
+    <string name="lbl_jekel">Jenis kelamin</string>
+    <string name="akusiap">Aku siap</string>
+    <string-array name="pilih_jekel" >
+        <item>Pilih</item>
+        <item>Laki - laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string name="pilih_sekolah">Nama sekolah kamu</string>
+    
+	<string name="deskripsi">Aplikasi edukasi yang dikembangkan untuk mendukung
+	    					Mata Pelajaran PKN dalam membentuk karakter anak usia sekolah dasar
+	    					kelas 1 - 3 yang menekankan pembelajaran tatakrama.</string>
+	<string name="versi">v 1.0.0</string>
+	<string name="dev_by">Dikembangkan oleh :\n
+	    				  Candle Light Studio\n\n</string>
+	<string name="pengembang">
+	    					  - TEAMS -\n
+	    					  - Project Leader -\n
+	    					  Agi Maulana\n\n
+	    					  - Programmer -\n
+	    					  Agi Maulana\n
+	    					  Abdurrozak Fathoni\n\n
+	    					  - Data Analyst And Graphic Designer -\n
+	    					  Ramadhyni Rifani\n
+	    					  Gideon Elwin G</string>
+	<string name="kaprodi">
+	    				Kepala Program Study :\n
+	    				Retno Novi Dayawati\n
+	</string>
+	<string name="pembimbing">
+	    				Pembimbing :\n
+	    				Retno Novi Dayawati\n
+	</string>
+	<string name="institusi">Fakultas Ilmu Terapan\n
+	    					 Universitas Telkom</string>
+	<string name="thanks_to">Terima kasih kepada :\n\n
+	    					 1. Tuhan Yang Maha Esa\n
+	    					 2. Orang tua\n
+	    					 3. Jajaran staf Fakultas Ilmu Terapan Tel-U\n
+	    					 4. Ibu Retno Novi Dayawati\n
+	    					 5. Teman - teman kelas D3IF 3803\n
+	    					 6. Semua yang telah mendukung kami</string>
+	<string name="spec_thanks_to">Ucapan terima kasih istimewa kepada :\n\n
+	    						  1. Universitas Telkom\n
+	    						  2. Irwanto - Tebak Gambar\n
+	    						  3. Stackoverflow\n
+	    						  4. Android Developer Indonesia</string>
+	<string name="tutup">Tutup</string>
+	<string name="credit">Referensi</string>
+	<string name="credit_list">
+	    Informatika.(dkk).(2012). Pemprograman Aplikasi Mobile Smartphone dan Tablet PC. Bandung: Informatika\n\n
+	    Informatika.(dkk).(2012). Pemprograman Aplikasi Mobile Smartphone dan Tablet PC. Bandung: Informatika\n\n
+	    Icon Archive. Red Home Icon. http://www.iconarchive.com/show/origami-colored-pencil-icons-by-double-j-design/red-home-icon.html\n\n
+		Free Design File. Funny School bag design elements vector 03. http://freedesignfile.com/22422-funny-school-bag-design-elements-vector-03/\n\n
+		Icon Archive. Elephant Icon . http://www.iconarchive.com/show/animals-icons-by-shrikant-rawa/elephant-icon.html\n\n
+		Icon Archive. Tree Icon. http://www.iconarchive.com/show/nature-icons-by-fasticon/Tree-icon.html\n\n
+		Flat Icon. Money Bag. http://www.flaticon.com/free-icon/money-bag-with-dollar-symbol_61584\n\n
+	</string>
+</resources>

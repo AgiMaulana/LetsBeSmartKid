@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/kolomPertanyaan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/imgJawabPertanyaan"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_above="@+id/lbl_jawabPertanyaan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/kategori_fauna" />
+
+        <TextView
+            android:id="@+id/lbl_jawabPertanyaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="#212121"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/pilihanPG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/kolomPertanyaan" >
+
+        <LinearLayout
+            android:id="@+id/kolomPG1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioPG_A"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@drawable/background_pilihan_ganda"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="15"
+                    android:textColor="#212121" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioPG_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@drawable/background_pilihan_ganda"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="#212121" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kolomPG2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/kolomPG1"
+            android:layout_marginTop="18dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioPG_C"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@drawable/background_pilihan_ganda"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="15"
+                    android:textColor="#212121" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioPG_D"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@drawable/background_pilihan_ganda"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="#212121" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnJawabOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pilihanPG"
+        android:layout_below="@+id/pilihanPG"
+        android:layout_marginTop="15dp"
+        android:background="#dBC02D"
+        android:text="@string/ok"
+        android:textColor="#727272" />
+
+</RelativeLayout>

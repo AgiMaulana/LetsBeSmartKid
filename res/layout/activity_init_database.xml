@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circular="http://schemas.android.com/apk/res/com.candlelightstudio.letsbesmartkid"
+    android:id="@+id/layoutInitDatabase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e74c3c"
+    android:orientation="vertical" >
+
+    <com.candlelightstudio.letsbesmartkid.CircularProgressBar
+        android:id="@+id/progressInitDB"
+        style="@style/Widget.ProgressBar.Holo.CircularProgressBar"
+        android:layout_width="110dip"
+        android:layout_height="110dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dip"
+        circular:subtitle="subtitle"
+        circular:title="Title" />
+
+    <TextView
+        android:id="@+id/lblTouchAnywhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressInitDB"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#bada55" />
+
+</RelativeLayout>

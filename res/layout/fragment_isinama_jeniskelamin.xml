@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1c40f"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <Spinner
+        android:id="@+id/spinner_PilihJekel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#f39c12"
+        android:entries="@array/pilih_jekel"
+        android:gravity="center"
+        android:popupBackground="#f39c12"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/lblProgressInitDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_PilihJekel"
+        android:layout_alignLeft="@+id/spinner_PilihJekel"
+        android:text="@string/pilih_jk"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
